@@ -1,0 +1,23 @@
+{
+  "name": "jvis-angular",
+  "version": "0.1.0",
+  "author": "Josh Vawdrey <josh@jvinternetsolutions.com>",
+  "description": "JV Internet Solutions",
+  "scripts": {
+    "postinstall": "npm run-script bower-install && npm run-script build",
+    "bower-install": "node ./node_modules/bower/bin/bower install --production",
+    "build": "node ./node_modules/requirejs/bin/r.js -o build.js"
+  },
+  "repository": {
+    "type": "svn",
+    "url": "https://svn.lib.uts.edu.au/php_utslib/trunk/"
+  },
+  "devDependencies" : {
+    "requirejs": "latest",
+    "bower" :  "0.8.x"
+  },
+  "engines": {
+    "node" : "latest",
+    "npm" : "latest"
+  }
+}
