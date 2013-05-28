@@ -4,3 +4,4 @@
 /dist
 /build/node_modules
 /components
+/npm-debug.log
