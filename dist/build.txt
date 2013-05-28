@@ -1,0 +1,13 @@
+
+css/style.css
+----------------
+css/style.css
+
+config.js
+----------------
+c:/dev/workspace/jvis_angular/components/jquery/jquery.min.js
+c:/dev/workspace/jvis_angular/components/bootstrap/js/bootstrap.min.js
+c:/dev/workspace/jvis_angular/components/bootstrap-modal/js/bootstrap-modal.js
+c:/dev/workspace/jvis_angular/components/bootstrap-modal/js/bootstrap-modalmanager.js
+app.js
+config.js
