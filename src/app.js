@@ -8,7 +8,7 @@ define(function (require) {
     
     $ = require('jquery'),
     
-    MainCtrl = require('controllers/main');
+    jvisApp = require('jvis');
     
     return {
         

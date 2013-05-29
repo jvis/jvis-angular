@@ -1,1 +1,1 @@
-define(["require"],function(e){return new function(){return console.log("init"),{start:function(){console.log("start")}}}});
+define(["require","angular","jquery","jvis"],function(e){var t=e("angular"),n=e("jquery"),r=e("jvis");return{init:function(){return this._init?this:(this.$window=n(window),this.$html=n("html"),this.$body=n("body"),this._init=!0,this)},start:function(e){return this._started?this:(this.init(),this.$html.removeClass("waiting").addClass("start"),t.bootstrap(e),this._started=!0,this)}}});

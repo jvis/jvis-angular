@@ -23,29 +23,5 @@ require.config({
         }
     },
     waitSeconds: 30,
-    deps : ['jquery']
-});
-
-require(['jquery', 'bootstrap', 'bootstrap-modal', 'bootstrap-modalmanager'], function ($) {
-    "use strict";
-
-    var bootstrap = {
-
-        init: function () {
-            $(document).ready($.proxy(this.onReady, this));
-            return this;
-        },
-
-        start: function (app) {
-            app.start(document);
-        },
-
-        onReady: function (e) {
-            // start application
-            require(['app'], this.start);
-        }
-    };
-
-    // bootstrap application
-    bootstrap.init();
+    deps : ['jvis']
 });
